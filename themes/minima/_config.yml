@@ -11,11 +11,11 @@ desc: "My major is Software Engineering in university, i used Java Golang and C 
 
 #menu
 menu:
-  Works: /Works
-  About: /About
+  #Works: /Works
+  #About: /About
 
 #index/main page max show posts (in number)
-max_post: 4
+max_post: 10
 
 # Colors use hex color without #
 # Theme color
