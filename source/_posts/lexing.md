@@ -89,6 +89,19 @@ class Lexer {
 
 以上代码只给出了词法分析器的核心思路，你可以自己去完善它，修改它。
 
+你可以使用下面这段代码当做你自己的词法分析器的输入作为测试用例，当然你也可以创造自己的编程语言词法规则。  
+
+```js
+let five = 5;
+let ten = 10;
+
+let add = fn(x, y) {
+  x + y;
+};
+
+let result = add(five, ten);
+```
+
 ## 思考
 Lexer里的ch是一个byte类型的数据结构,一次只能判断一个字符,那如果我们遇到像`==`或`let`这样的多个字符该如何处理呢?试试实现吧。完整代码在[github](https://github.com/kimmosc2/monkey-interpreter/blob/master/lexer/lexer.go#L45)上。
 
